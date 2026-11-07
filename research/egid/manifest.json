@@ -1,0 +1,41 @@
+{
+  "topic": "egid",
+  "year": "2026",
+  "snapshotDate": "2026-11-07",
+  "tool": "unified-trial-mcp @ /Users/qinxiaoqiang/Downloads/unified_search_trials/dist/src/cli/main.js",
+  "queries": [
+    {
+      "keyword": "eosinophilic gastroenteritis",
+      "note": "英文标准名"
+    },
+    {
+      "keyword": "嗜酸性粒细胞性胃肠炎",
+      "note": "中文标准名"
+    },
+    {
+      "keyword": "eosinophilic gastrointestinal diseases",
+      "note": "疾病族宽检索（含 EGID 命名，去重靠登记号）"
+    },
+    {
+      "keyword": "eosinophilic gastritis",
+      "note": "相关上位词（嗜酸性粒细胞性胃炎）"
+    }
+  ],
+  "perSourceLimit": 200,
+  "recordCount": 53,
+  "dbCount": 53,
+  "sourceStatusRows": 24,
+  "honesty": {
+    "offlineCorpora": "ChiCTR/CDE/CTV 离线语料仅胰腺癌覆盖；嗜酸性粒细胞性胃肠炎只依赖在线通道终态，见 source_statuses 表",
+    "statusWording": "登记 ≠ 有效 ≠ 安全 ≠ 可入组；状态一律\"登记状态，未核实\"",
+    "mergeRule": "仅同一登记号（NCT/ChiCTR/CDE 等）合并，其余并排保留来源"
+  },
+  "files": {
+    "trials-2026.jsonl": {
+      "sha256": "27a168b8f16ad1eda78ac9f872508d71fb783c3e8da34281e74b41339102b540"
+    },
+    "egid_trials_2026.sqlite": {
+      "sha256": "e0f5ee42e4c6641908df8bec2d2bfc03ca32deb04b9e0409b522c7ad71dbf1ba"
+    }
+  }
+}

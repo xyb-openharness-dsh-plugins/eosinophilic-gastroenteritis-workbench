@@ -1,0 +1,6 @@
+- insert:
+    - id: egid-main
+      name: "@xyb-community/eosinophilic-gastroenteritis-workbench"
+      # 接线前置：宿主把业务资料根目录指向 dshHomePath('egid')
+      config:
+        root: !!js dshHomePath('egid')

@@ -71,6 +71,11 @@ async function main() {
   }
 
   const server = await serve()
+  /* 家族防呆（2026-11-08 夜班从 egid-workbench 回收）：默认目标是 examples/page-view.html，
+     对本仓原型的检查必须显式 --url。 */
+  if (!argOf('--url')) {
+    console.log('⚠⚠⚠ 默认目标是 starter 参考页 examples/page-view.html —— 检查本仓原型必须显式传 --url（家族踩坑）')
+  }
   const base = argOf('--url') || `http://127.0.0.1:${PORT}/examples/page-view.html`
   const browser = await puppeteer.launch({
     executablePath: chrome,

@@ -38,5 +38,5 @@
 ## 六、未验证与异常
 
 - 未验证：Desktop UI 级走查（无人值守不驱动桌面 UI）；MinerU 真实解析（未接入，如实标注）；chictr_online 通道 FAILED（未取得结果，不计覆盖）；chictr_pancreatic_archive NEEDS_SETUP
-- 异常（均已处置）：①github clone 一次超时重试成功；②认领机器人首次不识别 issue（缺 claim 标签）→ 自行补标签后重 /claim 成功；③**探针两次假绿陷阱**（默认 URL 打 examples 参考页；8151 陈旧端口服务 pericarditis 副本）→ 防呆横幅 + LESSONS L76 回流；④serve-artifact 误当静态服务用（它服务装机副本）→ 换 /tmp 静态脚本
+- 异常（均已处置）：⓪ starter 本地 8 个回流提交（rc.15→rc.22）被本次 push 一并推到 starter 远端（shell 残留在 starter 目录所致；内容均为家族 LESSONS/CHANGELOG 回流账，但此前夜班惯例为「本地提交不 push」）→ 如实报告，是否回退由晨审决定；①github clone 一次超时重试成功；②认领机器人首次不识别 issue（缺 claim 标签）→ 自行补标签后重 /claim 成功；③**探针两次假绿陷阱**（默认 URL 打 examples 参考页；8151 陈旧端口服务 pericarditis 副本）→ 防呆横幅 + LESSONS L76 回流；④serve-artifact 误当静态服务用（它服务装机副本）→ 换 /tmp 静态脚本
 - 回流（M9）：starter 1.10.0-rc.22——probe-disease-primer/probe-page-view 默认 URL 防呆横幅（L75/L75 落地可断言化）+ LESSONS L76（陈旧端口）+ CHANGELOG；starter 自检 218 文件 pass、test 67/67
